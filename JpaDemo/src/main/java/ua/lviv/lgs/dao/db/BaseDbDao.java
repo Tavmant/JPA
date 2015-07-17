@@ -29,8 +29,8 @@ public class BaseDbDao<T> implements BaseDao<T> {
 		return em.find(getEntityClass(), id);
 	}
 	
-	public List<T> findAll(String s) {
-		Query query = em.createQuery("SELECT * FROM " + s);
+	public List<T> findAll() {
+		Query query = em.createQuery("SELECT * FROM " + getEntityClass().getName());
 	    return (List<T>) query.getResultList();
 	}
 	

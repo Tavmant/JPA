@@ -5,8 +5,6 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import javax.persistence.Query;
 
 import ua.lviv.lgs.dao.BaseDao;
@@ -56,5 +54,4 @@ public class BaseDbDao<T> implements BaseDao<T> {
 		} else
 			throw new IllegalArgumentException("Could not guess entity class by reflection");
 	}
-
 }

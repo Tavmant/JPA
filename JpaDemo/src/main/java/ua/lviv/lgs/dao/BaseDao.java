@@ -7,7 +7,7 @@ public interface BaseDao<T> {
 
 	T findById(Object id);
 
-	List<T> findAll(String s);
+	List<T> findAll();
 	
 	void delete(T t);
 	

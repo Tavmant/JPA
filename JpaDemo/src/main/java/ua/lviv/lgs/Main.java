@@ -22,12 +22,12 @@ public class Main {
 //		System.out.println(bDao.findByTitle("Kobzar"));
 //		System.out.println(aDao.findByAge(56));
 		
-//		List<Author> aList = aDao.findAll("Author");
+//		List<Author> aList = aDao.findAll();
 //		for (Author author : aList) {
 //			System.out.println(author);
 //		}
 		
-//		List<Book> bList = bDao.findAll("Book");
+//		List<Book> bList = bDao.findAll();
 //		for (Book book : bList) {
 //			System.out.println(book);
 //		}
